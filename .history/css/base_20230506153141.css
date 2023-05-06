@@ -1,0 +1,93 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+body{
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+.row{
+    margin-bottom: 30px;
+    /* margin-top: 20px; */
+}
+.row::after{
+    content: "";
+    display: block;
+    clear: both;
+} 
+
+/* .col-2{
+    display: inline-block;
+    width: calc(50% - 2px);
+    height:350px;
+    background-color: tomato;
+    vertical-align:top;   
+}
+.col-3{
+    display: inline-block;
+    width: 30%;
+    padding: 16px;
+    margin: 8px;
+} */
+.col-2 {
+    float: left;
+    width: 50%;
+}
+.col-3 {
+    float: left;
+    width: 33.3%;
+}
+.col-4 {
+    float: left;
+    width: 25%;
+}
+
+ /* .clearfix{
+    content: "";    .clearfix yerine .row sınıfını kullandık
+    display: block;
+    clear: both;
+}  */
+
+.container{
+    width: 100%;
+}
+
+@media (min-width:576px) {
+    .container{
+    margin: 0 auto;
+    width: 540px;
+    }
+}
+
+@media (min-width: 768px) {
+    .container {
+        margin: 0 auto;
+        width: 720px;
+    }
+}
+
+@media (min-width: 992px) { 
+    .container {
+        margin: 0 auto;
+        width: 960px;
+    }
+ }
+
+@media (min-width: 1200px) { 
+    .container {
+        margin: 0 auto;
+        width: 1140px;
+    }
+ }
+
+@media (min-width: 1400px) { 
+    .container {
+        margin: 0 auto;
+        width: 1320px;
+    }
+ }

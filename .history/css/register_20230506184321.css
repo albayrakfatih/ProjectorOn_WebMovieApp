@@ -1,0 +1,74 @@
+/*------------- register ------------*/
+
+.register-card {
+    background-color: grey;
+    margin: 2rem auto;
+    padding:2rem;
+    height:80vh;
+    background: linear-gradient(to bottom, rgb(255, 163, 102),rgb(255, 133, 51),rgb(255, 102, 0));
+    border-radius: 10rem;
+    width: 100%;
+    position: relative;
+}
+@media (min-width:768px) {
+    .register-card{
+        width: 62rem;
+    }
+}
+
+.signup-form {
+    text-align: center;
+    position: relative;
+}
+.register-card h1 {
+    font-size: 4rem;
+    margin-top: 0.1rem;
+    margin-bottom: .2rem;
+}
+.register-card h3 {
+    font-size: 2rem;
+    margin-top: .3rem;
+}
+.register-card h1,h3 {
+    text-align: center;
+}
+.signup-form input {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    background-color: #fff;
+    border: .1rem solid #ccc;
+    border-radius: .7rem;
+    padding: .5rem .8rem;
+}
+.signup-form label {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+}
+
+.register-card-container {
+    padding: 1.3rem .8rem;
+}
+
+::placeholder {
+    font-size: 2rem;
+    color: grey;
+}
+.agree-terms {
+    text-decoration: none;
+}
+
+.btn-register {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 1.4rem .3rem;
+    font-size: 2.5rem;
+    cursor: pointer;
+    border: none;
+    border-radius: .3rem;
+    transition-duration: 1s;
+    background-color: #2E4C6D;
+    color: #fff;
+    border: .2rem solid #2E4C6D;
+    border-radius: .7rem;
+}
